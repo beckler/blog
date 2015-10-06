@@ -2,30 +2,65 @@
 // endbower
 
 body {
-  background: #009FDA;
+  animation: background-cycle 30s ease 0s infinite alternate none running;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+#home {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  flex: none;
+  max-width: 50%;
+  text-align: center;
+
+  .info {
+    text-align: left;
+  }
+
+  .icon-wrap {
+    text-align: center;
+    vertical-align: bottom;
+    display: inline-block;
+    font-size: 3em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    padding-left: 0.1em;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: #fff;
+    }
+  }
+  h3 {
+    margin-top: 0;
+    text-rendering: optimizeLegibility;
   }
 }
 
 .browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
+  text-align: center;
+  margin: 0.5em 0;
+  background: #fff;
   color: #000;
-  padding: 0.2em 0;
+  padding: 1em 0;
+}
+
+
+@keyframes background-cycle {
+  0% { background-color: #009FDA; }
+  20% { background-color: #0CEFF1; }
+  40% { background-color: #0CE7AA; }
+  60% { background-color: #00FE70; }
+  80% { background-color: #00FDFE; }
+  100% { background-color: #00B3F4; }
 }
