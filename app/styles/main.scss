@@ -2,7 +2,8 @@
 // endbower
 
 body {
-  animation: background-cycle 30s ease 0s infinite alternate none running;
+  //animation: background-cycle 30s ease 0s infinite alternate none running;
+  background-color: #009FDA;
   color: #333;
   display: flex;
   min-height: 100vh;
@@ -61,7 +62,7 @@ h3 {
       background-color: rgba(0, 0, 0, 0);
       transition: background-color 0.3s;
       &:hover {
-        background-color: #fff;
+        background-color: #00FDFE;
       }
     }
   }
