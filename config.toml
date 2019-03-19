@@ -1,0 +1,43 @@
+baseurl = "https://blog.adc.io"
+languageCode = "en-us"
+title = "adc.io - Adventures of a terrible developer"
+theme = "hugo-lithium-theme"
+googleAnalytics = "UA-51842603-4"
+enableEmoji = true
+
+[taxonomies]
+    category = "categories"  
+    tag = "tags"
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/beckler"
+[[menu.main]]
+    name = "Keybase"
+    url = "https://keybase.io/beckler"
+[[menu.main]]
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/mcbeckler/"
+
+[params]
+    description = ""
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+    [params.icon]
+    url = "favicon.ico"
+
