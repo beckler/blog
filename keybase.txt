@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/beckler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://adc.io
+  * I am beckler (https://keybase.io/beckler) on keybase.
+  * I have a public key ASBFolyY60ormvq1pWdwty_cgwXg76hFJAtQM3AVoaUUoQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d4b6108d066922193b831f7c2843d38edb1b2a4b6db1a5de85ea7f97bf0e88630a",
+      "host": "keybase.io",
+      "kid": "012045a25c98eb4a2b9afab5a56770b72fdc8305e0efa845240b50337015a1a514a10a",
+      "uid": "b11c6ef18d342f5bca83e2986598dd19",
+      "username": "beckler"
+    },
+    "merkle_root": {
+      "ctime": 1553008251,
+      "hash": "be5e3ba8f34c759b7914b4365fc884232b445782fd4a81c58056db916905de75701b912025c62c5e2adfbee03cb11472422ec036bdca2ade422fda88e21b483f",
+      "hash_meta": "265fc59cad6b43b33272dcd34bdd43ae8d6bfee63aeaaf083ec37c02ef1f1ebd",
+      "seqno": 4980789
+    },
+    "service": {
+      "entropy": "wyJbv0hZ8EegXH6i8tETUFSX",
+      "hostname": "adc.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553008261,
+  "expire_in": 504576000,
+  "prev": "8dae110041d8cb1610c132d160b914dd780a4868904a260f8d440f57e8934dfa",
+  "seqno": 37,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRaJcmOtKK5r6taVncLcv3IMF4O+oRSQLUDNwFaGlFKEKp3BheWxvYWTESpcCJcQgja4RAEHYyxYQwTLRYLkU3XgKSGiQSiYPjUQPV+iTTfrEIFedW7EefpVSvfSbVkS+p+dV9vxuqSpusKS/OV3Gp4vIAgHCo3NpZ8RA6ANAcboHxSsSZZZw4PjlgUFzeP1R8YJwapZMGIZ9DVSw5xNUGhIgCYxmf82SMkILICvWt5uTvXDqgON18liEC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFPMzJnR+uPDtoVQNItGX+rSQVcFap9w516oMzk8Hklio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/beckler
+
+==================================================================
