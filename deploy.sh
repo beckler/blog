@@ -5,8 +5,8 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # remove public folder 
 rm -rf public/
 
-# pull subtree
-git subtree add --prefix public origin gh-pages
+# # pull subtree
+# git subtree add --prefix public origin gh-pages
 
 # build the project -> outputs to public folder
 hugo --minify --buildFuture
