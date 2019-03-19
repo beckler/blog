@@ -6,7 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo --minify --buildFuture
 
 # setup worktree
-git worktree add --checkout public gh-pages
+git worktree add --checkout -b gh-pages public origin/gh-pages
 
 # commit the public folder
 git add --all && git commit -m "Update content"
