@@ -1,0 +1,172 @@
+.article-taxonomy {
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Lato', sans-serif;
+  color: #404040;
+  font-size: 14px;
+  text-align: left;
+}
+
+.article-taxonomy hr {
+  width: 200px;
+  margin: 5px 0 10px;
+  height: 1px;
+  border: none;
+  background: #e8e8e8;
+}
+
+.article-taxonomy a {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  text-decoration: none;
+  color: inherit;
+  transition: color 300ms;
+}
+
+.article-taxonomy a:hover,
+.article-taxonomy a:active {
+  color: #ccc;
+}
+
+.article-image-large {
+  padding: 2px;
+  border: solid 1px #e6e6e6;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.article-image-large:hover,
+.article-image-large:active {
+  opacity: 0.5;
+}
+
+.list,
+.category,
+.tag-cloud {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+}
+
+.list-title,
+.category-title,
+.tag-cloud-title {
+  font-size: 32px;
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+.list-item {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.list-item-date {
+  display: block;
+  padding: 4px 0;
+  font-family: 'Lato', sans-serif;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.list-item a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: auto;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 3px 0;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #222;
+  border-bottom: 1px solid #ddd;
+  transition: border-color 300ms;
+}
+
+.list-item a:hover {
+  border-color: #222;
+}
+
+.category-item {
+  display: block;
+  list-style: none;
+  margin: 5px 0 15px;
+  padding: 0;
+}
+
+.category-item a {
+  display: inline-block;
+  padding: 5px 0;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #222;
+  transition: color 300ms;
+}
+
+.category-item-count {
+  font-family: 'Lato', sans-serif;
+  margin-right: 15px;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tag-cloud-item {
+  margin: 0;
+  padding: 0;
+}
+
+.tag-cloud-item li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 15px 15px 0;
+}
+
+.tag-cloud-item a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #222;
+  transition: color 300ms;
+}
+
+.tag-cloud-item a:hover,
+.tag-cloud-item a:active,
+.category-item a:hover,
+.category-item a:active {
+  color: #ccc;
+}
+
+.fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+
+.fa-rss::before {
+  content: "\f09e";
+}
+
+.fa-chevron-up::before {
+  content: "\f077";
+}
+
+.fa-github::before {
+  content: "\f09b";
+}
+
+.fa-tags::before {
+  content: "\f02c";
+  padding: 0px 10px 50px 0;
+}
+
+/* .fa-category::before {
+  content: "\f07c";
+  float: left;
+  padding: 0 10px 0px 0;
+} */
