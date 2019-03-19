@@ -14,4 +14,7 @@ git add --all && git commit -m "Update content"
 # push to the gh-pages branch
 git push origin gh-pages
 
+# remove the local branch 
+git branch -D gh-pages
+
 echo -e "\033[0;32mFinished deploying.\033[0m"
