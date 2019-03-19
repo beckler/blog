@@ -9,7 +9,7 @@ hugo --minify --buildFuture
 git worktree add public gh-pages
 
 # commit the public folder
-git add public && git commit -m "Update content"
+git add --all && git commit -m "Update content"
 
 # push to the gh-pages branch
 git push origin gh-pages
