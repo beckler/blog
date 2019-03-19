@@ -8,7 +8,8 @@ git subtree pull --prefix public origin gh-pages
 hugo --minify --buildFuture
 
 # commit the public folder
-git add -f public && git commit -m "Update content"
+git subtree add --prefix public origin gh-pages --squash
+# git add -f public && git commit -m "Update content"
 
 # push the public folder ONLY to the gh-pages branch
 git subtree push --prefix public origin gh-pages
