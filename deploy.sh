@@ -6,7 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 rm -rf public/
 
 # pull subtree
-git subtree pull --prefix public origin gh-pages
+git subtree add --prefix public origin gh-pages
 
 # build the project -> outputs to public folder
 hugo --minify --buildFuture
