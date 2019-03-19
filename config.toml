@@ -1,4 +1,4 @@
-baseurl = "https://blog.adc.io/"
+baseurl = "https://adc.io/"
 languageCode = "en-us"
 title = "adc.io - Adventures of a terrible developer"
 theme = "hugo-lithium-theme"
