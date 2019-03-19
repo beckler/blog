@@ -6,7 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo --minify --buildFuture
 
 # commit the public folder
-git add public && git commit -m "Update content"
+git add -f public && git commit -m "Update content"
 
 # push the public folder ONLY to the gh-pages branch
 git subtree push --prefix public origin gh-pages
