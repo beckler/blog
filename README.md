@@ -1,5 +1,8 @@
-# beckler.github.io
+# blog
+
+built with hugo
 
 ### deploying
 
-run `./deploy.sh`
+* make sure hugo is installed
+* run `./deploy.sh`
