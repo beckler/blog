@@ -5,6 +5,9 @@ theme = "hugo-lithium-theme"
 googleAnalytics = "UA-51842603-4"
 enableEmoji = true
 
+[blackfriday]
+    hrefTargetBlank = true
+
 [taxonomies]
     category = "categories"  
     tag = "tags"
@@ -40,4 +43,3 @@ enableEmoji = true
 
     [params.icon]
     url = "favicon.ico"
-
