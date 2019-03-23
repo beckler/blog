@@ -19,5 +19,4 @@ So this website is mostly for documenting some of the various challenges I've de
 Sure.
 
 * Not sure if this is needed anymore, but opinions expressed here are solely my own and do not express the views or opinions of my employer.
-* This site was built with [Hugo](https://gohugo.io/), and I'm using the [Lithium](https://themes.gohugo.io/hugo-lithium-theme/) theme (with some custom modifications to support tags).
-* If you want to reach out, post an [issue on Github](https://github.com/beckler/beckler.github.io/issues/new), or message me on [Linkedin](https://www.linkedin.com/in/mcbeckler/).
+* This site was built with [Hugo](https://gohugo.io/), and I'm using the [Basic](https://github.com/siegerts/hugo-theme-basic/) theme (with some small modifications).

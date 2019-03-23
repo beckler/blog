@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on adc.io - Adventures of a terrible developer</title>
+    <link>https://adc.io/tags/golang/</link>
+    <description>Recent content in Golang on adc.io - Adventures of a terrible developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Mar 2019 22:17:03 -0400</lastBuildDate>
+    
+	<atom:link href="https://adc.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Protobufs and gRPC</title>
+      <link>https://adc.io/2019/03/18/protobufs-and-grpc/</link>
+      <pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate>
+      
+      <guid>https://adc.io/2019/03/18/protobufs-and-grpc/</guid>
+      <description> Let&amp;rsquo;s break it down Imagine we
+Protobufs gRPC Cavets AWS Azure GCP </description>
+    </item>
+    
+  </channel>
+</rss>

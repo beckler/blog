@@ -1,15 +1,14 @@
 ---
 title: "Hello"
-date: 2019-03-18T22:17:03-04:00
-tags:
-    - testing
-    - testing2
-    - testing3
-draft: false
+description: "TEST POST PLEASE IGNORE YA DUMMY"
+# tags: 
+#     - personal
+# categories:
+#     - Personal
+# series: ""
+date: 2019-03-23T14:46:59-04:00
 ---
 
-# Testing
+TEST POST
 
-TEST POST PLEASE IGNORE
-
-IGNORE IGNORE
+PLEASE IGNORE

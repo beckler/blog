@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on adc.io - Adventures of a terrible developer</title><link>https://adc.io/tags/</link><description>Recent content in Tags on adc.io - Adventures of a terrible developer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://adc.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing</title><link>https://adc.io/tags/testing/</link><pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate><guid>https://adc.io/tags/testing/</guid><description/></item><item><title>Testing2</title><link>https://adc.io/tags/testing2/</link><pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate><guid>https://adc.io/tags/testing2/</guid><description/></item><item><title>Testing3</title><link>https://adc.io/tags/testing3/</link><pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate><guid>https://adc.io/tags/testing3/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on adc.io - Adventures of a terrible developer</title>
+    <link>https://adc.io/tags/</link>
+    <description>Recent content in Tags on adc.io - Adventures of a terrible developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Mar 2019 22:17:03 -0400</lastBuildDate>
+    
+	<atom:link href="https://adc.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang</title>
+      <link>https://adc.io/tags/golang/</link>
+      <pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate>
+      
+      <guid>https://adc.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grpc</title>
+      <link>https://adc.io/tags/grpc/</link>
+      <pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate>
+      
+      <guid>https://adc.io/tags/grpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protobufs</title>
+      <link>https://adc.io/tags/protobufs/</link>
+      <pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate>
+      
+      <guid>https://adc.io/tags/protobufs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

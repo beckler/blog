@@ -1,45 +1,48 @@
 baseurl = "https://adc.io/"
+title = "how to be an terrible developer"
+theme ="hugo-theme-basic"
 languageCode = "en-us"
-title = "adc.io - Adventures of a terrible developer"
-theme = "hugo-lithium-theme"
 googleAnalytics = "UA-51842603-4"
 enableEmoji = true
+copyright = "© 2019 beckler, <a href='https://github.com/beckler'>@github</a>, <a href='https://keybase.io/beckler'>@keybase</a>."
+description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
 [blackfriday]
     hrefTargetBlank = true
 
 [taxonomies]
-    category = "categories"  
-    tag = "tags"
-
-[permalinks]
-    post = "/:year/:month/:day/:title/"
-    page = "/:title/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/beckler"
-[[menu.main]]
-    name = "Keybase"
-    url = "https://keybase.io/beckler"
-[[menu.main]]
-    name = "Linkedin"
-    url = "https://www.linkedin.com/in/mcbeckler/"
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 [params]
-    description = ""
+  titleEmoji = ":sparkles:"
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
+[permalinks]
+  post = "post/:slug"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+[[params.menu]]
+  name = "all posts"
+  url = "post/"
 
-    [params.icon]
-    url = "favicon.ico"
+#[[params.menu]]
+#  name = "series"
+#  url = "series/"
+
+#[[params.menu]]
+#  name = "projects"
+#  url = "project/"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
