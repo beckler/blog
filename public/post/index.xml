@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on adc.io - Adventures of a terrible developer</title>
-    <link>https://adc.io/post/</link>
-    <description>Recent content in Posts on adc.io - Adventures of a terrible developer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 18 Mar 2019 22:17:03 -0400</lastBuildDate>
-    
-	<atom:link href="https://adc.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Protobufs and gRPC</title>
-      <link>https://adc.io/2019/03/18/protobufs-and-grpc/</link>
-      <pubDate>Mon, 18 Mar 2019 22:17:03 -0400</pubDate>
-      
-      <guid>https://adc.io/2019/03/18/protobufs-and-grpc/</guid>
-      <description> Let&amp;rsquo;s break it down Imagine we
-Protobufs gRPC Cavets AWS Azure GCP </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on how to be an terrible developer</title><link>https://adc.io/post/</link><description>Recent content in Posts on how to be an terrible developer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© 2019 beckler, &lt;a href=&#39;https://github.com/beckler&#39;&gt;@github&lt;/a&gt;, &lt;a href=&#39;https://keybase.io/beckler&#39;&gt;@keybase&lt;/a&gt;.</copyright><lastBuildDate>Sat, 23 Mar 2019 14:46:59 -0400</lastBuildDate><atom:link href="https://adc.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello</title><link>https://adc.io/post/hello/</link><pubDate>Sat, 23 Mar 2019 14:46:59 -0400</pubDate><guid>https://adc.io/post/hello/</guid><description>TEST POST
+PLEASE IGNORE</description></item></channel></rss>
