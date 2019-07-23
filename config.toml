@@ -1,11 +1,9 @@
 baseurl = "https://adc.io/"
-title = "how to be an terrible developer"
-theme ="hugo-theme-basic"
+title = "adc.io"
+theme ="base16"
 languageCode = "en-us"
 googleAnalytics = "UA-51842603-4"
 enableEmoji = true
-copyright = "© 2019 beckler, <a href='https://github.com/beckler'>@github</a>, <a href='https://keybase.io/beckler'>@keybase</a>."
-description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
 [blackfriday]
     hrefTargetBlank = true
@@ -14,28 +12,6 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
   category = "categories"
   series = "series"
   tag = "tags"
-
-[params]
-  titleEmoji = ":sparkles:"
-
-[permalinks]
-  post = "post/:slug"
-
-[[params.menu]]
-  name = "all posts"
-  url = "post/"
-
-#[[params.menu]]
-#  name = "series"
-#  url = "series/"
-
-#[[params.menu]]
-#  name = "projects"
-#  url = "project/"
-
-[[params.menu]]
-  name = "about"
-  url = "about/"
 
 [privacy]
   [privacy.googleAnalytics]
