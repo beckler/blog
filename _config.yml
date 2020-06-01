@@ -1,12 +1,12 @@
 # Site settings
-title: Your site
+title: something something hexadecimal
 description: >
-    Your description
-author: Michael Beckler
+    something something hexadecimal
+author: "@beckler"
 email: your@e.mail
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adc.io" # the base hostname & protocol for your site
-github_username:  beckler
+github_username: beckler
 
 # Build settings
 include: [_pages]
