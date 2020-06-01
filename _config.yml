@@ -1,0 +1,28 @@
+# Site settings
+title: Your site
+description: >
+    Your description
+author: Michael Beckler
+email: your@e.mail
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://adc.io" # the base hostname & protocol for your site
+github_username:  beckler
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+sass:
+    style: compressed
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+# - amp-jekyll # Acceletrated Mobile Pages
+
+# AMP Settings
+# ampdir: amp/
+# enable_amp: true
+
+# Google Analytics
+# google_analytics: UA-XXXXXXXX-X
