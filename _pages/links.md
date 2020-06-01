@@ -3,6 +3,4 @@ layout: page
 title: Links
 permalink: /links/
 ---
-Share links here.
-
-
+Nothing here now, but maybe in the future.
