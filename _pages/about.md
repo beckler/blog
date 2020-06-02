@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 I'm a developer living in the Atlanta metropolitan area.
-I enjoy tinkering with electronics, reverse engineering, building stuff, and the great outdoors.
+I enjoy creating music, tinkering with electronics, reverse engineering, building stuff, and the great outdoors.

@@ -1,8 +1,7 @@
 # Site settings
 title: something something hexadecimal
 description: something something hexadecimal
-author: "michael beckler"
-email: your@e.mail
+author: "beckler"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adc.io" # the base hostname & protocol for your site
 github_username: beckler
