@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Or maybe Markdown
+title: Post Formatting
 subtitle: This post explains how you can write posts using Markdown.
 tags: [guide, markdown]
+private: true
 ---
 
 This post is written in markdown, but you can also write a [post using html]({% link _posts/2020-04-05-private-example.html %}).
@@ -67,4 +68,4 @@ ID  | Name   | Subject
 for version control using Git
 
 **Here is an image,**<br>
-![](../assets/autumn.jpg)
+![]({{ sitedir }}/assets/autumn.jpg)

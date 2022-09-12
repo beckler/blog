@@ -1,6 +1,6 @@
 title: something something hexadecimal
 author: beckler
-subtitle: thoughts from an digital entropy wizard
+subtitle: blah blah blah
 
 url: "https://adc.io"
 baseurl: ""
@@ -12,7 +12,7 @@ footer_text: "behold! some code!"
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.png
 
-permalink: /:year-:month-:day-:title/
+permalink: "/:year/:month/:day/:title"
 sass:
   style: compressed
   sass_dir: css
