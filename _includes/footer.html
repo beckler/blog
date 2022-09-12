@@ -1,11 +1,8 @@
-<footer class="c-page__footer">
-	</hr>
-	{% if page.layout != 'amp' %}
-	</hr>
-	{% endif %}
-	<p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }}</p>
-	{% if page.layout != 'amp' %}
-	</br>
-	{% endif %}
-	<p>{% if site.keybase_username %}<a href="https://keybase.io/{{ site.keybase_username }}">Keybase</a>{% endif %}{% if site.keybase_username %}{% if site.github_username %}<span class="u-separate"></span> {% endif %}{% endif %}{% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">Github</a>{% endif %}<span class="u-separate"></span> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-</footer>
+<div class="footer">
+    {% if page.url == "/" and site.footer_only_homepage %}
+        <hr>
+        <a href="{{ site.footer_url }}">{{ site.footer_text }}</a>
+    {% else %}
+        <br>
+    {% endif %}
+</div>

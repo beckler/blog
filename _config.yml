@@ -1,27 +1,22 @@
-# Site settings
 title: something something hexadecimal
-description: something something hexadecimal
-author: "beckler"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://adc.io" # the base hostname & protocol for your site
-github_username: beckler
-keybase_username: beckler
+author: beckler
+subtitle: thoughts from an digital entropy wizard
 
-# Build settings
-include: [_pages]
-markdown: kramdown
-permalink: /:year/:month/:title
+url: "https://adc.io"
+baseurl: ""
+
+footer_only_homepage: true
+footer_url: "https://github.com/beckler"
+footer_text: "behold! some code!"
+
+profile-picture: assets/profile.png
+favicon_location: assets/favicon.png
+
+permalink: /:year-:month-:day-:title/
 sass:
-    style: compressed
+  style: compressed
+  sass_dir: css
 
-plugins:
-  - jemoji
-  - jekyll-sitemap
-# - amp-jekyll # Acceletrated Mobile Pages
-
-# AMP Settings
-# ampdir: amp/
-# enable_amp: true
-
-# Google Analytics
-# google_analytics: UA-XXXXXXXX-X
+navbar:
+  - name: "About"
+    link: "about"
