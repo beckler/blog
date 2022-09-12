@@ -6,9 +6,9 @@ tags: [guide, markdown]
 private: true
 ---
 
-This post is written in markdown, but you can also write a [post using html]({% link _posts/2020-04-05-private-example.html %}).
+This post is written in markdown, but you can also write a [post using html]({% link _posts/2000-01-01-private-example.html %}).
 
-<span class="color-red">[NEW]:</span> Now you can also create a private post, which will not be visible on the blog homepage, but is accessible via a URL. See [this secret post]({% link _posts/2020-04-05-private-example.html %}) as an example.
+<span class="color-red">[NEW]:</span> Now you can also create a private post, which will not be visible on the blog homepage, but is accessible via a URL. See [this secret post]({% link _posts/2000-01-01-private-example.html %}) as an example.
 
 Posts should be named as `%yyyy-%mm-%dd-your-post-title-here.md`, and placed in the `_posts/` directory. Drafts can be kept in `_drafts/` directory.
 
