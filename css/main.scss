@@ -79,6 +79,10 @@ code {
 .post-card{
     margin-top:1em;
     margin-bottom:1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
     .title{
         max-width: 500px;
         color: #9aedfe;
@@ -214,9 +218,9 @@ code {
         left: -30px;
     }
     blockquote {
-        border-left: 5px solid #ff9f43;
+        border-left: 8px solid #ff9f43;
         margin: 5px 0;
-        padding: 0px 8px;
+        padding: 1px 8px !important;
         font-style: italic;
     }
     .profile-picture {
