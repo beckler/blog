@@ -3,6 +3,7 @@ layout: post
 title: "Meris LVX: Part 1"
 subtitle: "the fun, the bad..."
 tags: [embedded, pedals]
+private: true
 ---
 
 First off, welcome to this blog! I've wanted to start it multiple times, but I feel like I have nothing to ever discuss. 
