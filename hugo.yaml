@@ -1,0 +1,61 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: random things
+theme: ["PaperMod"]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: archive
+          url: archives
+          weight: 5
+        - name: search
+          url: search/
+          weight: 10
+        - name: about
+          url: about/
+          weight: 15
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "just some thoughts and stuff"
+  author: beckler
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+
+  homeInfoParams:
+    Title: "welcome weary traveler"
+    Content: >
+      come, take a seat, and lets speak about the wonders of the world.
+
+  socialIcons:
+    - name: github
+      title: BEHOLD! SOME CODE!
+      url: "https://github.com/beckler"
