@@ -1,7 +1,12 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: random things
+title: "random things"
 theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
 languages:
   en:
@@ -53,9 +58,4 @@ params:
   homeInfoParams:
     Title: "welcome weary traveler"
     Content: >
-      come, take a seat, and lets speak about the wonders of the world.
-
-  socialIcons:
-    - name: github
-      title: BEHOLD! SOME CODE!
-      url: "https://github.com/beckler"
+      take a seat, and lets speak of the wonder of the world.

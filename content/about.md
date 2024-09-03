@@ -4,10 +4,13 @@ ShowToc: false
 ShowPostNavLinks: false
 ShowBreadCrumbs: false
 ShowReadingTime: false
+searchHidden: true
+hiddenInHomelist: true
+draft: true
 ---
 
 ### 👋 howdy stranger
 
-I’m a developer based in the atlanta metropolitan area.
+I’m a security focused software developer based in the atlanta metro area.
 
 I enjoy tinkering with electronics, building stuff, reverse engineering, making music, and the great outdoors.
